@@ -19,7 +19,7 @@ const client = new Client({
 });
 
 // 🔧 Configuration
-const TOKEN = process.env.TOKEN || 'MTM5NTY5NzkzOTAzNjUwODIzMA.G74cSX.aNGuXXYae_DK-XdcbB-BX5W4dJpsRjlbdXp3ZE'; // Use env or direct paste
+const TOKEN = process.env.TOKEN || 'DISCORD_TOKEN'; // Use env or direct paste
 const ROLE_ID = '1381372058260213800';     // example: '123456789012345678'
 const CHANNEL_ID = '1381373473154138295'; // optional, used only if needed for fixed channel
 const LOG_CHANNEL_ID = '1395775782961283072';
