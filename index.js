@@ -130,7 +130,8 @@ client.on(Events.InteractionCreate, async interaction => {
 });
 
 // 🟢 Login
-client.login("MTM5NTY5NzkzOTAzNjUwODIzMA.GSQuWf.y18KVx6BJt-gv0AKKv0N_xCrr6RMEjKHGhQms8");
+client.login(process.env.DISCORD_TOKEN);
+
 
 
 
